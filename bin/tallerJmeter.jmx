@@ -202,7 +202,7 @@
             </elementProp>
             <elementProp name="influxdbUrl" elementType="Argument">
               <stringProp name="Argument.name">influxdbUrl</stringProp>
-              <stringProp name="Argument.value">http://influxdb/write?db=performance</stringProp>
+              <stringProp name="Argument.value">http://influxdb:8086/write?db=performance</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="application" elementType="Argument">
@@ -305,7 +305,7 @@
                 <elementProp name="oq" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">oq</stringProp>
-                  <stringProp name="Argument.value">hola mundo</stringProp>
+                  <stringProp name="Argument.value">${busqueda}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
